@@ -1,0 +1,49 @@
+/* CSS */
+#online-consultant {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+#chat-header {
+    background: #0078d4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-button {
+    padding: 10px;
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
